@@ -32,7 +32,22 @@ public class Card {
     public int getPointValue(){
 // only return the value if the card is face up
         if(isFaceUp){
-            return (this.value.toUpperCase())
+            switch (this.value.toUpperCase()) {
+                case "2" ->2;
+                case "3" ->
+                case "4" ->
+                case "5" ->
+                case "6" ->
+                case "7" ->
+                case "8" ->
+                case "9" ->
+                case "J" ->
+                case "Q" ->
+                case "K" ->
+                case "A" ->
+                case "" ->
+                case "" ->
+            }
 
 
 
